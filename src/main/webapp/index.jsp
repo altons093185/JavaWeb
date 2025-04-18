@@ -8,5 +8,12 @@
 </head>
 <body>
 <h1>hello this is java web page</h1>
+<a href="/lottery">lottery page</a>
+<a href="/welcome">welcome page</a>
+<a href="/bmi">bmi page</a>
+<a href="/hello">hello page</a>
+<
+
+
 </body>
 </html>
