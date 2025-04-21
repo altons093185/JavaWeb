@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
 <style>
@@ -22,14 +22,13 @@ text-align: center;
 		<h2>咖啡表單</h2>
 		<form class="pure-form pure-form-stacher" method="POST"  action"/JavaWeb/user/">
 		 <fieldset>
-		 	<legend>Coffee Form</legend>
+		 	<legend>guest book Form</legend>
 					
 					<br><br>
-					<label>請輸入牛奶毫升數:</label>
-					<input name="milk" type="number" min="0" max="1000" required />
+					<label>留言</label>
+					<input name="message" type="text" required />
 					
-					<label>請輸入咖啡毫升數:</label>
-					<input name="coffee" type="number" min="0" max="1000" required />
+
 					
 
 					
