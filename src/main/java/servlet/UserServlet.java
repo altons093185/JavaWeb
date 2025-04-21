@@ -52,6 +52,11 @@ public class UserServlet extends HttpServlet {
 		// 將參數資料注入到 Model 中(User.java)
 		User user = new User(userName, gender, age, height, weight);
 		
+		// 4.分派到 /WEB-INF/user_result.jsp
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/user_result.jsp");
+		request.setAttribute("user", user); // 將 user 資料物件傳給 jsp
+		rd.forward(request, response);
+		
 			
 		response.getWriter().print(user);
 	}
