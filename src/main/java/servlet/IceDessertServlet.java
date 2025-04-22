@@ -42,10 +42,11 @@ public class IceDessertServlet extends HttpServlet {
 		// 加入到訂單集合
 		iceOrders.add(iceOrder);
 		// 重導到 jsp
-		request.setAttribute("iceOrders", iceOrders);
-		request.getRequestDispatcher("/WEB-INF/ice_dessert_result.jsp").forward(request, response);
+		
+		response.sendRedirect("iceResult");
 	}
 
+	
 	public static List<IceOrder> getIceOrders() {
 		// TODO Auto-generated method stub
 		return iceOrders;
