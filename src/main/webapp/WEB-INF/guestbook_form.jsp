@@ -19,13 +19,12 @@ text-align: center;
 </head>
 <body>
 	<div class='form-container'>
-		<h2>咖啡表單</h2>
+		<h2>留言表單</h2>
 		<form class="pure-form pure-form-stacher" method="POST"  action"/JavaWeb/user/">
-		 <fieldset>
-		 	<legend>guest book Form</legend>
-					
+		 <fieldset>				
 					<br><br>
-					<label>留言</label>
+					<label>留言:</label>
+					<br><br>
 					<input name="message" type="text" required />
 					
 
